@@ -1,49 +1,158 @@
-[{
-        "log_id": 894307206781091922,
-        "data": {
-            "Discord User": "Turtle-12",
-            "Discord ID": 204339788994576384,
-            "RSI User": "Turtle-12",
-            "Notes": "",
-            "Admitted": false,
-            "Submitted": "10/03/2021, 12:37:33",
-            "Updated": ""
-        }
-    },
-    {
-        "log_id": 894307364990251079,
-        "data": {
-            "Discord User": "Turtle-12",
-            "Discord ID": 204339788994576384,
-            "RSI User": "testname",
-            "Notes": "",
-            "Admitted": false,
-            "Submitted": "10/03/2021, 12:38:10",
-            "Updated": ""
-        }
-    },
-    {
-        "log_id": 894307364990251079,
-        "data": {
-            "Discord User": "Turtle-12",
-            "Discord ID": 204339788994576384,
-            "RSI User": "testname",
-            "Notes": "",
-            "Admitted": false,
-            "Submitted": "10/03/2021, 12:38:10",
-            "Updated": ""
-        }
-    },
-    {
-        "log_id": 894334638036758549,
-        "data": {
-            "Discord User": "Turtle-12",
-            "Discord ID": 204339788994576384,
-            "RSI User": "Turtle-12",
-            "Notes": "",
-            "Admitted": false,
-            "Submitted": "10/03/2021, 14:26:34",
-            "Updated": ""
-        }
+[
+  {
+    "log_id": 894307206781091922,
+    "data": {
+      "Discord User": "Turtle-12",
+      "Discord ID": 204339788994576384,
+      "RSI User": "Turtle-12",
+      "Notes": "",
+      "Admitted": false,
+      "Submitted": "10/03/2021, 12:37:33",
+      "Updated": ""
     }
+  },
+  {
+    "log_id": 894307364990251079,
+    "data": {
+      "Discord User": "Turtle-12",
+      "Discord ID": 204339788994576384,
+      "RSI User": "testname",
+      "Notes": "",
+      "Admitted": false,
+      "Submitted": "10/03/2021, 12:38:10",
+      "Updated": ""
+    }
+  },
+  {
+    "log_id": 894307364990251079,
+    "data": {
+      "Discord User": "Turtle-12",
+      "Discord ID": 204339788994576384,
+      "RSI User": "testname",
+      "Notes": "",
+      "Admitted": false,
+      "Submitted": "10/03/2021, 12:38:10",
+      "Updated": ""
+    }
+  },
+  {
+    "log_id": 894334638036758549,
+    "data": {
+      "Discord User": "Turtle-12",
+      "Discord ID": 204339788994576384,
+      "RSI User": "Turtle-12",
+      "Notes": "",
+      "Admitted": false,
+      "Submitted": "10/03/2021, 14:26:34",
+      "Updated": ""
+    }
+  },
+  {
+    "log_id": 94509151,
+    "data": {
+      "Discord User": "Test",
+      "Discord ID": 94509151,
+      "RSI User": "Test94509151",
+      "Notes": "",
+      "Admitted": false,
+      "Submitted": "date here, time here",
+      "Updated": ""
+    }
+  },
+  {
+    "log_id": 24502273,
+    "data": {
+      "Discord User": "Test 24502273",
+      "Discord ID": 24502273,
+      "RSI User": "Test 24502273",
+      "Notes": "",
+      "Admitted": false,
+      "Submitted": "date here, time here",
+      "Updated": ""
+    }
+  },
+  {
+    "log_id": 31438121,
+    "data": {
+      "Discord User": "Test 31438121",
+      "Discord ID": 31438121,
+      "RSI User": "Test 31438121",
+      "Notes": "",
+      "Admitted": false,
+      "Submitted": "date here, time here",
+      "Updated": ""
+    }
+  },
+  {
+    "log_id": 5134443,
+    "data": {
+      "Discord User": "Test 5134443",
+      "Discord ID": 5134443,
+      "RSI User": "Test 5134443",
+      "Notes": "",
+      "Admitted": false,
+      "Submitted": "date here, time here",
+      "Updated": ""
+    }
+  },
+  {
+    "log_id": 53989482,
+    "data": {
+      "Discord User": "Test 53989482",
+      "Discord ID": 53989482,
+      "RSI User": "Test 53989482",
+      "Notes": "",
+      "Admitted": false,
+      "Submitted": "date here, time here",
+      "Updated": ""
+    }
+  },
+  {
+    "log_id": 71758820,
+    "data": {
+      "Discord User": "Test 71758820",
+      "Discord ID": 71758820,
+      "RSI User": "Test 71758820",
+      "Notes": "",
+      "Admitted": false,
+      "Submitted": "date here, time here",
+      "Updated": ""
+    }
+  },
+  {
+    "log_id": 30321426,
+    "data": {
+      "Discord User": "Test 30321426",
+      "Discord ID": 30321426,
+      "RSI User": "Test 30321426",
+      "Notes": "",
+      "Admitted": false,
+      "Submitted": "date here, time here",
+      "Updated": ""
+    }
+  },
+  {
+    "log_id": 75702925,
+    "data": {
+      "Discord User": "Test 75702925",
+      "Discord ID": 75702925,
+      "RSI User": "Test 75702925",
+      "Notes": "",
+      "Admitted": false,
+      "Submitted": "date here, time here",
+      "Updated": ""
+    }
+  },
+  {
+    "log_id": 59965072,
+    "data": {
+      "Discord User": "Test 59965072",
+      "Discord ID": 59965072,
+      "RSI User": "Test 59965072",
+      "Notes": "",
+      "Admitted": false,
+      "Submitted": "date here, time here",
+      "Updated": ""
+    }
+  }
 ]
