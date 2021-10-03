@@ -1,0 +1,49 @@
+[{
+        "log_id": 894307206781091922,
+        "data": {
+            "Discord User": "Turtle-12",
+            "Discord ID": 204339788994576384,
+            "RSI User": "Turtle-12",
+            "Notes": "",
+            "Admitted": false,
+            "Submitted": "10/03/2021, 12:37:33",
+            "Updated": ""
+        }
+    },
+    {
+        "log_id": 894307364990251079,
+        "data": {
+            "Discord User": "Turtle-12",
+            "Discord ID": 204339788994576384,
+            "RSI User": "testname",
+            "Notes": "",
+            "Admitted": false,
+            "Submitted": "10/03/2021, 12:38:10",
+            "Updated": ""
+        }
+    },
+    {
+        "log_id": 894307364990251079,
+        "data": {
+            "Discord User": "Turtle-12",
+            "Discord ID": 204339788994576384,
+            "RSI User": "testname",
+            "Notes": "",
+            "Admitted": false,
+            "Submitted": "10/03/2021, 12:38:10",
+            "Updated": ""
+        }
+    },
+    {
+        "log_id": 894334638036758549,
+        "data": {
+            "Discord User": "Turtle-12",
+            "Discord ID": 204339788994576384,
+            "RSI User": "Turtle-12",
+            "Notes": "",
+            "Admitted": false,
+            "Submitted": "10/03/2021, 14:26:34",
+            "Updated": ""
+        }
+    }
+]
