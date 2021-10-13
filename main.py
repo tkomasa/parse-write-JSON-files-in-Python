@@ -15,6 +15,7 @@ def log_to_json(dict):
 
         
 # function to parse the data we created by searching for the 'message_id' provided and returning to python as a dictionary
+# message_id is the key value of the json log
 def parse_from_json(message_id):
     f = open("logs.json", mode='r', encoding='utf-8')
     data_list = json.load(f)
