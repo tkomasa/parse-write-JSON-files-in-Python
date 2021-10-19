@@ -26,8 +26,9 @@ def parse_from_json(message_id):
         index += 1
 
 
-
-# this just makes random entries for me to demonstrate with
+# EXAMPLES:
+'''
+# this just makes random entries for me to demonstrate with:
 int = random.randint(0, 100000000)
 new_item = {"log_id": int,
             "data": {
@@ -41,6 +42,8 @@ new_item = {"log_id": int,
                 }
             }   
 
-# calling the functions:
+
+# calling the functions examples:
 log_to_json(new_item)  # will make new log entries
 print(parse_from_json(24502273))  # will search for a log given a log_id number (int)
+'''
