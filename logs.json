@@ -1,49 +1,62 @@
-[{
-        "log_id": 94509151,
-        "data": {
-            "Discord User": "Test",
-            "Discord ID": 94509151,
-            "RSI User": "Test94509151",
-            "Notes": "",
-            "Admitted": null,
-            "Submitted": "date here, time here",
-            "Updated": ""
-        }
-    },
-    {
-        "log_id": 901811762918203442,
-        "data": {
-            "Discord User": "Turtle-12",
-            "Discord ID": 204339788994576384,
-            "RSI User": "Turtle-12",
-            "Notes": "",
-            "Admitted": null,
-            "Submitted": "10/24/2021, 05:38:01",
-            "Updated": ""
-        }
-    },
-    {
-        "log_id": 901813452836839464,
-        "data": {
-            "Discord User": "Turtle-12",
-            "Discord ID": 204339788994576384,
-            "RSI User": "Turtle-12",
-            "Notes": "",
-            "Admitted": null,
-            "Submitted": "10/24/2021, 05:44:43",
-            "Updated": ""
-        }
-    },
-    {
-        "log_id": 901815455185002558,
-        "data": {
-            "Discord User": "Turtle-12",
-            "Discord ID": 204339788994576384,
-            "RSI User": "Turtle-12",
-            "Notes": "",
-            "Admitted": true,
-            "Submitted": "10/24/2021, 05:52:41",
-            "Updated": ""
-        }
+[
+  {
+    "log_id": 94509151,
+    "data": {
+      "Discord User": "Test",
+      "Discord ID": 94509151,
+      "RSI User": "Test94509151",
+      "Notes": "",
+      "Admitted": null,
+      "Submitted": "date here, time here",
+      "Updated": ""
     }
+  },
+  {
+    "log_id": 901811762918203442,
+    "data": {
+      "Discord User": "Turtle-12",
+      "Discord ID": 204339788994576384,
+      "RSI User": "Turtle-12",
+      "Notes": "",
+      "Admitted": null,
+      "Submitted": "10/24/2021, 05:38:01",
+      "Updated": ""
+    }
+  },
+  {
+    "log_id": 901813452836839464,
+    "data": {
+      "Discord User": "Turtle-12",
+      "Discord ID": 204339788994576384,
+      "RSI User": "Turtle-12",
+      "Notes": "",
+      "Admitted": null,
+      "Submitted": "10/24/2021, 05:44:43",
+      "Updated": ""
+    }
+  },
+  {
+    "log_id": 901815455185002558,
+    "data": {
+      "Discord User": "Turtle-12",
+      "Discord ID": 2043397889945763841,
+      "RSI User": "Turtle-12",
+      "Notes": "This works!",
+      "Admitted": true,
+      "Submitted": "10/24/2021, 05:52:41",
+      "Updated": "10/24/2021, 07:01:28"
+    }
+  },
+  {
+    "log_id": 123456789101112131415,
+    "data": {
+      "Discord User": "Stinky Rat Boy",
+      "Discord ID": 2043397889945763842,
+      "RSI User": "",
+      "Notes": "Test success.",
+      "Admitted": null,
+      "Submitted": "10/24/2021, 07:11:41",
+      "Updated": ""
+    }
+  }
 ]
