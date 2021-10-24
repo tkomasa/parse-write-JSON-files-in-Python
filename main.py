@@ -25,6 +25,8 @@ def parse_from_json(message_id):
             return data_list[index]
         index += 1
 
+
+# lets us change anything under the "data" section in the json
 def change_log(message_id, data_key, new_value):
     f = open("logs.json", mode='r', encoding='utf-8')  # open json
     data_list = json.load(f)  # get data stream
