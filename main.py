@@ -19,6 +19,16 @@ def parse_from_json(message_id):
             return data_list[index]
         index += 1
 
+def change_log(message_id, data_key, new_value):
+    f = open("logs.json", mode='r', encoding='utf-8')  # open json
+    data_list = json.load(f)  # get data stream
+    index = 0
+    while index < len(data_list):
+        if data_list[index]["log_id"] == message_id:
+            data_list[index]["data"][data_key] = new_value
+        index += 1
+    f = open("logs.json", mode='w', encoding='utf-8')
+    json.dump(data_list, f, indent=2)
 
 
 
@@ -36,4 +46,5 @@ new_item = {"log_id": int,
             }   
 
 #log_to_json(new_item)  # will make new log entries
-print(parse_from_json(24502273))  # will search for a log given a log_id number (int)
+#print(parse_from_json(901815455185002558))  # will search for a log given a log_id number (int)
+change_log(901815455185002558, "Admitted", True)
