@@ -77,9 +77,9 @@ def find(query):
     data_list = json.load(f)
     index = 0
     while index < len(data_list):
-        if data_list[index]["log_id"] == query:
+        if data_list[index]["log_id"] == int(query):
             return data_list[index]
-        if data_list[index]["data"]["Discord ID"] == query:
+        if data_list[index]["data"]["Discord ID"] == int(query):
             return data_list[index]
         if data_list[index]["data"]["RSI User"] == query:
             return data_list[index]
