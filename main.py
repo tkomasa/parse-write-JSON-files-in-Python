@@ -18,7 +18,7 @@ def log_to_json(dict):
 
 
 # manually add a log entry given the message id and the user id, everything else is optional
-def manual_log_to_json(message_id, user_id, discord_username="", rsi_username="", notes="", admitted=None):
+def manual_log_to_json(message_id, user_id, discord_username="", rsi_username="", notes="", admitted=None, red_flag=False, red_flag_msg=""):
     entry = {"log_id": message_id,
             "data": {
                 "Discord User": discord_username, 
@@ -27,7 +27,9 @@ def manual_log_to_json(message_id, user_id, discord_username="", rsi_username=""
                 "Notes": notes, 
                 "Admitted": admitted, 
                 "Submitted": datetime.now().strftime('%m/%d/%Y, %H:%M:%S'), 
-                "Updated": ""
+                "Updated": "",
+                "Red Flag": red_flag,
+                "Red Flag Message": red_flag_msg
                 }
         }
     
