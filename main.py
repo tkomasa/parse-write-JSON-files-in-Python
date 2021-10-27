@@ -1,6 +1,5 @@
 # imports, both are built-in modules
 import json
-import random
 from datetime import datetime
 
 
