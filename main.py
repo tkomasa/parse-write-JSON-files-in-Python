@@ -118,25 +118,3 @@ def find_RSI(rsi_user):
         if data_list[index]["data"]["RSI User"] == rsi_user:
             return data_list[index]
         index += 1
-    
-
-# EXAMPLES:
-'''
-# this just makes random entries for me to demonstrate with:
-int = random.randint(0, 100000000)
-new_item = {"log_id": int,
-            "data": {
-                "Discord User": "Test " + str(int),
-                "Discord ID": int,
-                "RSI User": "Test " + str(int),
-                "Notes": "",
-                "Admitted": False,
-                "Submitted": "date here, time here",
-                "Updated": ""
-                }
-            }   
-
-#log_to_json(new_item)  # will make new log entries
-'''
-
-print(find(123456789101112131415))
