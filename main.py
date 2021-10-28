@@ -40,6 +40,20 @@ def manual_log_to_json(message_id, user_id, discord_username="", rsi_username=""
         json.dump(feeds, feedsjson, indent=2)
 
 
+# lets us change anything under the "data" section in the json by either ID
+def change_log_byID(id, data_key, new_value):
+    f = open("logs.json", mode='r', encoding='utf-8')  # open json
+    data_list = json.load(f)  # get data stream
+    index = 0
+    while index < len(data_list):
+        if (data_list[index]["log_id"] == id) or (data_list[index]["data"]["Discord ID"] == id):
+            data_list[index]["data"][data_key] = new_value
+            data_list[index]["data"]["Updated"] = datetime.now().strftime('%m/%d/%Y, %H:%M:%S')
+        index += 1
+    f = open("logs.json", mode='w', encoding='utf-8')
+    json.dump(data_list, f, indent=2)
+
+
 # lets us change anything under the "data" section in the json
 def change_log_bymessageID(message_id, data_key, new_value):
     f = open("logs.json", mode='r', encoding='utf-8')  # open json
