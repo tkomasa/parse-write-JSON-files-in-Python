@@ -46,7 +46,7 @@ def change_log_byID(id, data_key, new_value):
     data_list = json.load(f)  # get data stream
     index = 0
     while index < len(data_list):
-        if (data_list[index]["log_id"] == id) or (data_list[index]["data"]["Discord ID"] == id):
+        if (data_list[index]["log_id"] == int(id)) or (data_list[index]["data"]["Discord ID"] == int(id)):
             data_list[index]["data"][data_key] = new_value
             data_list[index]["data"]["Updated"] = datetime.now().strftime('%m/%d/%Y, %H:%M:%S')
         index += 1
